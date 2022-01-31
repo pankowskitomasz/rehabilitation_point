@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
+  selector: 'app-home',
+  templateUrl: './home.component.html',
   styleUrls: ['../../sass/styles.scss']
 })
-export class NavbarComponent implements OnInit {
+export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
